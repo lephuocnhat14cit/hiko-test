@@ -1,0 +1,157 @@
+.our-games {
+  padding: 40px 80px 80px;
+  background: #fff;
+
+  @media (max-width: 991px) {
+    padding: 40px 0 0 0;
+  }
+
+  h3 {
+    font-family: 'Playfair Display';
+    font-size: 60px;
+    font-weight: bold;
+    line-height: 80px;
+
+    display: flex;
+    align-items: center;
+    text-align: center;
+    justify-content: center;
+    letter-spacing: 3.6px;
+  }
+
+  .description {
+    font-family: 'Montserrat';
+    text-align: center;
+    font-size: 14px;
+    line-height: 140%;
+    color: #757575bf;
+    width: 840px;
+    margin-bottom: 80px;
+    margin-top: 25px;
+
+    @media (max-width: 991px) {
+      margin-bottom: 40px;
+    }
+  }
+
+  .product-list {
+    .product {
+      height: 560px;
+      padding: 40px 32px;
+      margin-bottom: 30px;
+      display: flex;
+      flex-direction: column;
+      justify-content: flex-end;
+      background-size: cover;
+      border-radius: 12px;
+      box-shadow: 0 3px 10px rgb(0 0 0 / 20%);
+      -webkit-transition: transform 0.5s ease;
+      transition: transform 0.5s ease;
+      background-position: center center;
+
+      &:hover {
+        opacity: 0.8;
+      }
+
+      .product-name {
+        font-family: 'Montserrat';
+        font-style: normal;
+        font-weight: bold;
+        font-size: 48px;
+        line-height: 60px;
+        letter-spacing: -1px;
+        color: #ffffff;
+        margin-bottom: 15px !important;
+      }
+
+      .product-description {
+        font-family: 'Montserrat';
+        font-style: normal;
+        font-weight: normal;
+        font-size: 14px;
+        line-height: 140%;
+        color: #fff;
+        letter-spacing: 0.01rem;
+      }
+    }
+
+    .odd-col {
+      padding-top: 100px;
+    }
+  }
+
+  @media (max-width: 1440px) {
+    .product-list {
+      padding-left: 16px;
+      padding-right: 16px;
+
+      .product {
+        padding: 11px 20px;
+        margin-bottom: 15px;
+        height: 400px;
+
+        .product-name {
+          font-size: 30px;
+          line-height: 30px;
+        }
+
+        .product-description {
+          font-size: 12px;
+          line-height: 15px;
+          margin-bottom: 20px !important;
+        }
+      }
+    }
+  }
+
+  @media (max-width: 991px) {
+    h3 {
+      font-size: 40px;
+      margin-bottom: 0px;
+    }
+
+    .description {
+      width: auto;
+      padding: 0px 16px;
+    }
+
+    .col-left {
+      padding-right: 5px;
+    }
+
+    .col-right {
+      padding-left: 5px;
+    }
+
+    .product-list {
+      padding-left: 16px;
+      padding-right: 16px;
+      padding-bottom: 30px;
+
+      .product {
+        padding: 11px 12px;
+        margin-bottom: 15px;
+        height: 270px;
+
+        .product-name {
+          font-size: 24px;
+          line-height: 30px;
+        }
+
+        .product-description {
+          font-size: 12px;
+          line-height: 15px;
+          margin-bottom: 0 !important;
+        }
+      }
+
+      .odd-col {
+        padding-top: 0px
+      }
+
+      .even-col-mobile {
+        padding-top: 60px;
+      }
+    }
+  }
+}

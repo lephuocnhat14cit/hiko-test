@@ -1,0 +1,108 @@
+.our-partners {
+  padding: 110px 180px;
+  background: #f3f3f3;
+
+  .flickity-viewport {
+    margin-right: -40px;
+  }
+
+  @media (max-width: 991px) {
+    padding: 30px 0 30px;
+
+    .flickity-viewport {
+      margin-right: 0;
+    }
+  }
+
+  h3 {
+    margin-bottom: 80px;
+    font-family: 'Playfair Display';
+    font-size: 60px;
+    line-height: 80px;
+    display: flex;
+    font-weight: bold;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+    letter-spacing: 3.6px;
+  }
+
+  #our-partner-carousel {
+    height: 100px;
+
+    .slide {
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      width: 260px;
+      height: 100px;
+      margin-right: 40px;
+
+      img {
+        height: auto;
+        width: 100%;
+      }
+
+      @media (max-width: 1600px) {
+        width: 200px;
+        height: 80px;
+      }
+    }
+  }
+
+  .flickity-prev-next-button .flickity-button-icon {
+    left: 25%;
+    width: 45%;
+    fill: #ccc;
+    transition: all 0.3s;
+
+    &:hover {
+      fill: #222;
+    }
+  }
+
+  .flickity-prev-next-button {
+    width: 33px;
+    height: 33px;
+    box-shadow: 0 3px 10px rgb(0 0 0 / 0.2);
+    border-radius: 10px;
+  }
+
+  .flickity-prev-next-button.next {
+    right: -60px;
+  }
+
+  .flickity-prev-next-button.previous {
+    left: -60px;
+  }
+
+  @media (max-width: 991px) {
+    h3 {
+      font-size: 40px;
+      margin-bottom: 10px;
+    }
+
+    #our-partner-carousel {
+      height: 70px;
+
+      .slide {
+        width: 140px;
+        height: 70px;
+        margin-right: 0;
+
+        img {
+          height: 50px;
+          width: auto;
+        }
+      }
+    }
+
+    .flickity-prev-next-button.next {
+      right: 10px;
+    }
+
+    .flickity-prev-next-button.previous {
+      left: 10px;
+    }
+  }
+}

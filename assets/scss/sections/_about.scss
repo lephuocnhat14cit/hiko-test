@@ -1,0 +1,151 @@
+.about-us {
+  .content {
+    margin-top: 140px;
+
+    .side-left {
+      .title {
+        font-family: 'Playfair Display';
+        font-weight: bold;
+        font-size: 60px;
+        line-height: 60px;
+        letter-spacing: 3.6px;
+        color: #000;
+        margin-top: 0;
+      }
+
+      .description {
+        margin-top: 40px !important;
+        font-family: 'Montserrat';
+        font-size: 14px;
+        color: #757575bf;
+      }
+
+      .count-number {
+        margin-top: 80px;
+
+        .games {
+          margin-top: 40px;
+        }
+
+        .value {
+          font-family: 'Montserrat';
+          font-style: normal;
+          font-weight: bold;
+          font-size: 80px;
+          line-height: 1;
+          letter-spacing: -1px;
+          color: #079ff7;
+
+          .unit {
+            font-size: 35px;
+            margin-left: -20px;
+          }
+        }
+
+        .label-left {
+          font-family: 'Montserrat';
+          font-style: normal;
+          font-weight: bold;
+          font-size: 24px;
+          line-height: 30px;
+          color: #000;
+        }
+      }
+    }
+
+    .side-right {
+      background: #eee;
+      padding: 113px 75px;
+
+      .list-items {
+        list-style: none;
+        margin: 0px;
+        padding: 0px;
+
+        .item {
+          display: flex;
+          margin-bottom: 41px;
+
+          &:last-child {
+            margin-bottom: 0px;
+          }
+
+          img {
+            margin-right: 24px;
+          }
+
+          h3 {
+            margin: 0px;
+            font-family: 'Montserrat';
+            font-weight: bold;
+            font-size: 24px;
+            line-height: 30px;
+          }
+
+          P {
+            margin-top: 8px !important;
+            font-family: 'Montserrat';
+            font-style: normal;
+            font-weight: normal;
+            font-size: 14px;
+            line-height: 140%;
+            color: #757575db;
+          }
+        }
+      }
+    }
+
+    @media (max-width: 991px) {
+      margin-top: 20px;
+
+      .side-left {
+        .title {
+          font-size: 40px;
+          line-height: 50px;
+        }
+
+        .description {
+          font-size: 14px;
+          line-height: 140%;
+        }
+
+        .count-number {
+          margin-top: 40px;
+
+          .games {
+            margin-top: 0px;
+          }
+
+          .value {
+            font-size: 44px;
+            letter-spacing: -1px;
+
+            .unit {
+              font-size: 22px;
+              margin-left: -10px;
+            }
+          }
+
+          .label-left {
+            font-size: 24px;
+            line-height: 30px;
+          }
+        }
+      }
+
+      .side-right {
+        padding: 15px;
+        margin-top: 40px;
+
+        .list-items {
+          padding-top: 20px;
+          padding-bottom: 10px;
+        }
+
+        img {
+          width: 40px;
+        }
+      }
+    }
+  }
+}
