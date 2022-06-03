@@ -1,4 +1,4 @@
-.animation-area {
+.wrapper-animation {
   justify-content: center;
   margin-top: 50px;
 
@@ -32,7 +32,7 @@
 }
 
 @media (max-width: 991px) {
-  .animation-area {
+  .wrapper-animation {
       margin-top: 20px;
 
       .Illustrator {
@@ -47,7 +47,7 @@
 }
 
 @media (max-width: 480px) {
-  .animation-area {
+  .wrapper-animation {
       .map {
           width: 100%;
       }
