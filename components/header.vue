@@ -90,7 +90,7 @@
         </div>
       </div>
     </div>
-    <div class="menu-mobile modal" v-if="isOpen">
+    <div :class="[{'open': isOpen}, 'menu-mobile modal']">
       <div class="control">
         <div class="lang-mobile">
           <b-nav-item-dropdown :key="$i18n.locale">
