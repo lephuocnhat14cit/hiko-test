@@ -1,162 +1,161 @@
 .contact-us {
-    bottom: 0;
+  bottom: 0;
 
+  .contact-us-wrapper {
+    padding: 110px 0px 80px 0;
+    margin: 0;
+    background-size: cover;
+    background-image: url("../images/contents/contactUs/background.jpg");
+    background-position: center;
+
+    h3 {
+      font-family: "Montserrat";
+      font-size: 30px;
+      font-weight: bolder;
+      color: #fff;
+      margin-bottom: 40px;
+    }
+
+    p {
+      font-family: "Montserrat";
+      font-size: 14px;
+      line-height: 140%;
+      color: #fff;
+    }
+
+    .information {
+      text-align: center;
+
+      .logo {
+        margin-bottom: 40px;
+        width: 150px;
+      }
+    }
+
+    .address {
+      padding-left: 16%;
+      padding-right: 50px !important;
+
+      @media (max-width: 1650px) {
+        padding-left: 12%;
+        padding-right: 50px !important;
+      }
+
+      @media (max-width: 992px) {
+        padding-left: 15px;
+        padding-right: 15px !important;
+      }
+
+      .items {
+        padding: 0px;
+
+        .item {
+          margin-bottom: 30px;
+        }
+
+        .item-content-address {
+          margin-left: 13px;
+
+          .address-english {
+            margin-bottom: 15px !important;
+          }
+        }
+
+        .item-content-phone {
+          margin-top: 10px;
+          margin-left: 13px;
+        }
+      }
+    }
+
+    .subscribe {
+      .description {
+        margin-right: 30px;
+        max-width: 420px;
+      }
+
+      .email {
+        width: 410px;
+        height: 55px;
+        margin-top: 15px;
+        position: relative;
+
+        input {
+          &::placeholder {
+            color: #fff;
+          }
+
+          &::-webkit-input-placeholder {
+            font-size: 15px;
+          }
+
+          left: 0px;
+          top: 0px;
+          width: 410px;
+          height: 55px;
+          padding-left: 10px;
+          position: static;
+          box-sizing: border-box;
+          border-radius: 8px;
+          border: 1px solid #fff;
+          color: #fff;
+          background: transparent;
+        }
+
+        svg {
+          top: 17px;
+          right: 15px;
+          position: absolute;
+          cursor: pointer;
+        }
+      }
+    }
+  }
+
+  .social {
+    a {
+      margin: 0 8px;
+    }
+  }
+
+  @media (max-width: 991px) {
     .contact-us-wrapper {
-        padding: 110px 0px 80px 0;
-        margin: 0;
-        background-size: cover;
-        background-image: url("../images/contents/contactUs/background.jpg");
-        background-position: center;
+      margin-right: 0px;
+      padding: 40px 15px 62px;
+      background-image: url("../images/contents/contactUs/BG_mobile.svg");
 
-        h3 {
-            font-family: 'Montserrat';
-            font-size: 30px;
-            font-weight: bolder;
-            color: #fff;
-            margin-bottom: 40px;
+      .address {
+        padding: 0;
+      }
+
+      .subscribe {
+        margin-top: 30px;
+        padding: 0;
+
+        .description {
+          margin-right: 0 !important;
         }
 
-        p {
-            font-family: 'Montserrat';
-            font-size: 14px;
-            line-height: 140%;
-            color: #fff;
+        .email {
+          width: 100%;
+
+          input {
+            width: 100%;
+          }
         }
-
-        .information {
-            text-align: center;
-
-            .logo {
-                margin-bottom: 40px;
-                width: 150px;
-            }
-        }
-
-        .address {
-            padding-left: 16%;
-            padding-right: 50px !important;
-
-            @media (max-width: 1650px) {
-                padding-left: 12%;
-                padding-right: 50px !important;
-            }
-
-            @media (max-width: 992px) {
-                padding-left: 15px;
-                padding-right: 15px !important;
-            }
-
-            .items {
-                padding: 0px;
-
-                .item {
-                    margin-bottom: 30px;
-                }
-
-                .item-content-address {
-                    margin-left: 13px;
-
-                    .address-english {
-                        margin-bottom: 15px !important;
-                    }
-                }
-
-                .item-content-phone {
-                    margin-top: 10px;
-                    margin-left: 13px;
-                }
-            }
-        }
-
-        .subscribe {
-            .description {
-                margin-right: 30px;
-                max-width: 420px;
-            }
-
-            .email {
-                width: 410px;
-                height: 55px;
-                margin-top: 15px;
-                position: relative;
-
-                input {
-                    &::placeholder {
-                        color: #fff;
-                    }
-
-                    &::-webkit-input-placeholder {
-                        font-size: 15px;
-                    }
-
-                    left: 0px;
-                    top: 0px;
-                    width: 410px;
-                    height: 55px;
-                    padding-left: 10px;
-                    position: static;
-                    box-sizing: border-box;
-                    border-radius: 8px;
-                    border: 1px solid #fff;
-                    color: #fff;
-                    background: transparent;
-                }
-
-                svg {
-                    top: 17px;
-                    right: 15px;
-                    position: absolute;
-                    cursor: pointer;
-                }
-            }
-        }
+      }
     }
 
     .social {
+      margin-bottom: 75px;
 
-        a {
-            margin: 0 8px;
-        }
+      a {
+        margin: 0 8px;
+      }
+
+      img {
+        width: 32px;
+      }
     }
-
-    @media (max-width: 991px) {
-        .contact-us-wrapper {
-            margin-right: 0px;
-            padding: 40px 15px 62px;
-            background-image: url("../images/contents/contactUs/BG_mobile.svg");
-
-            .address {
-                padding: 0;
-            }
-
-            .subscribe {
-                margin-top: 30px;
-                padding: 0;
-
-                .description {
-                    margin-right: 0 !important;
-                }
-
-                .email {
-                    width: 100%;
-
-                    input {
-                        width: 100%;
-                    }
-                }
-            }
-        }
-
-        .social {
-            margin-bottom: 75px;
-
-            a {
-                margin: 0 8px;
-            }
-
-            img {
-                width: 32px;
-            }
-        }
-    }
+  }
 }
