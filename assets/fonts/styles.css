@@ -1,0 +1,40 @@
+@font-face {
+  font-family: 'Montserrat';
+  src: url('./montserrat/Montserrat-Regular.woff2') format('woff2'),
+      url('./montserrat/Montserrat-Regular.woff') format('woff'),
+      url('./montserrat/Montserrat-Regular.ttf') format('truetype');
+  font-weight: normal;
+  font-style: normal;
+  font-display: swap;
+}
+
+@font-face {
+  font-family: 'Montserrat';
+  src: url('./montserrat/Montserrat-Bold.woff2') format('woff2'),
+      url('./montserrat/Montserrat-Bold.woff') format('woff'),
+      url('./montserrat/Montserrat-Bold.ttf') format('truetype');
+  font-weight: bold;
+  font-style: normal;
+  font-display: swap;
+}
+
+
+@font-face {
+  font-family: 'Playfair Display';
+  src: url('./PlayfairDisplay/PlayfairDisplay-Regular.woff2') format('woff2'),
+      url('./PlayfairDisplay/PlayfairDisplay-Regular.woff') format('woff'),
+      url('./PlayfairDisplay/PlayfairDisplay-Regular.ttf') format('truetype');
+  font-weight: normal;
+  font-style: normal;
+  font-display: swap;
+}
+
+@font-face {
+  font-family: 'Playfair Display';
+  src: url('./PlayfairDisplay/PlayfairDisplay-Bold.woff2') format('woff2'),
+      url('./PlayfairDisplay/PlayfairDisplay-Bold.woff') format('woff'),
+      url('./PlayfairDisplay/PlayfairDisplay-Bold.ttf') format('truetype');
+  font-weight: bold;
+  font-style: normal;
+  font-display: swap;
+}
