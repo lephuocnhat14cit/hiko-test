@@ -69,11 +69,11 @@
       </div>
     </div>
     <div class="wrapper-animation">
-      <div class="Illustrator-container">
+      <div class="witch-container">
         <img
-          class="Illustrator"
-          src="../assets/images/contents/Illustrator.png"
-          alt="Illustrator"
+          class="image"
+          src="../assets/images/contents/witch.png"
+          alt="image"
         />
       </div>
       <div class="map-wrapper">

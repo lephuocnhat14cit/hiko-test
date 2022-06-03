@@ -1,56 +1,55 @@
+@keyframes bounce {
+  50% {
+    transform: translateY(60px);
+  }
+}
+
 .wrapper-animation {
   justify-content: center;
   margin-top: 50px;
 
   .map-wrapper {
-      img {
-          width: 100%;
-      }
+    img {
+      width: 100%;
+    }
   }
 
-  .Illustrator-container {
+  .witch-container {
+    position: relative;
+    text-align: center;
+
+    .image {
       position: relative;
-      text-align: center;
+      animation: 2s bounce ease infinite;
 
-      .Illustrator {
-          position: relative;
-          animation-name: animation-move;
-          animation-duration: 2s;
-          animation-delay: 0s;
-          animation-iteration-count: infinite;
-          animation-direction: alternate-reverse;
-          -webkit-animation-name: animation-move;
-          -webkit-animation-duration: 2s;
-          -webkit-animation-delay: 0s;
-
-          @media (max-width: 991px) {
-              animation-name: animation-move-mobile;
-              -webkit-animation-name: animation-move-mobile;
-          }
+      @media (max-width: 991px) {
+        animation-name: animation-move-mobile;
+        -webkit-animation-name: animation-move-mobile;
       }
+    }
   }
 }
 
 @media (max-width: 991px) {
   .wrapper-animation {
-      margin-top: 20px;
+    margin-top: 20px;
 
-      .Illustrator {
-          width: 300px;
-          animation-name: none;
-      }
+    .image {
+      width: 300px;
+      animation-name: none;
+    }
 
-      .map {
-          width: 380px;
-      }
+    .map {
+      width: 380px;
+    }
   }
 }
 
 @media (max-width: 480px) {
   .wrapper-animation {
-      .map {
-          width: 100%;
-      }
+    .map {
+      width: 100%;
+    }
   }
 }
 
@@ -62,56 +61,4 @@
 .layout-enter-active,
 .layout-leave-active {
   transition: opacity 0.2s;
-}
-
-@keyframes animation-move {
-  0% {
-    top: 70px;
-    bottom: 0px;
-    left: 100px;
-  }
-
-  100% {
-    top: 0px;
-    bottom: 70px;
-    left: -100px;
-  }
-}
-
-@-webkit-keyframes animation-move {
-  0% {
-    top: 70px;
-    bottom: 0px;
-    left: 100px;
-  }
-
-  100% {
-    top: 0px;
-    bottom: 70px;
-    left: -100px;
-  }
-}
-
-@keyframes animation-move-mobile {
-  0% {
-    top: 70px;
-    bottom: 0px;
-  }
-
-  100% {
-    top: 0px;
-    bottom: 70px;
-  }
-}
-
-@-webkit-keyframes animation-move-mobile {
-  0% {
-    top: 70px;
-    bottom: 0px;
-  }
-
-  100% {
-    top: 0px;
-    bottom: 70px;
-  }
 }
