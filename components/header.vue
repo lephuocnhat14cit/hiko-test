@@ -152,6 +152,7 @@ export default {
       this.isOpen = false;
       const element = document.getElementById(id);
       const offsetTop = element.offsetTop;
+      document.body.style.overflow = "auto";
       window.scrollTo({
         top: offsetTop,
         behavior: "smooth",
